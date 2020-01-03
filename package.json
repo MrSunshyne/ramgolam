@@ -1,5 +1,5 @@
 {
-  "name": "sun",
+  "name": "sandeepramgolam",
   "version": "1.0.0",
   "description": "Resume of Sandeep Ramgolam",
   "main": "index.js",
@@ -21,6 +21,6 @@
     "inquirer": "^7.0.1"
   },
   "bin": {
-    "sun": "./index.js"
+    "sandeepramgolam": "./index.js"
   }
 }
