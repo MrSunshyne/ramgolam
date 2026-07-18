@@ -1,8 +1,8 @@
 {
-  "Experience 💼": ["💻 Senior Front-end Developer", "🎨 UX Designer", "🐧 Linux Enthusiast", "📝 Blogger"],
-  "Tech Stack 🖥": ["VueJS", "NuxtJS", "PostCSS", "CSS", "Google APIs"],
+  "Experience 💼": ["💻 Senior Front-end Engineer", "🌟 Google Developer Expert", "👥 Lead Organizer @ Coders.mu", "🐧 Linux & UX Enthusiast"],
+  "Tech Stack 🖥": ["Nuxt", "Vue", "Web Platform APIs", "Postgres", "Linux", "Podman", "Grafana", "Prometheus"],
   "Location 📍": ["Based in the Paradise Island of Mauritius 🇲🇺⛰🌴🌊⛱"],
   "Gaming ⚽️": ["Dota 2", "FIFA", "Football IRL"],
   "Education 📚": ["CS Degree at the University of Mauritius", "MQA Approved Trainer", "Educator's License from MIE"],
-  "Contact 🤙": ["📧 sandeep.ramgolam@gmail.com", "🐦 twitter: @__Sun__", "🕸 https://mrsunshyne.gitlab.io"]
+  "Contact 🤙": ["📧 sandeep@ramgolam.com", "🐦 twitter: @__sun__", "🕸 https://sandeep.ramgolam.com", "🐙 github: https://github.com/MrSunshyne"]
 }
