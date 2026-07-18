@@ -10,8 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/MrSunshyne/ramgolam.git"
   },
-  "author": "",
+  "author": "Sandeep Ramgolam (https://sandeep.ramgolam.com)",
   "license": "ISC",
+  "keywords": [
+    "resume",
+    "cv",
+    "cli",
+    "npx",
+    "sandeep-ramgolam",
+    "mrsunshyne",
+    "front-end-developer",
+    "mauritius"
+  ],
   "bugs": {
     "url": "https://github.com/MrSunshyne/ramgolam/issues"
   },
