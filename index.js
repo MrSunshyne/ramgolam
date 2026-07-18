@@ -17,7 +17,7 @@ const resumeOptions = {
 };
 
 function showResume() {
-  console.log("Hello, I'm Sandeep Ramgolam and this is my resume");
+  console.log(response("Hello, I'm Sandeep Ramgolam and this is my resume"));
   handleResume();
 }
 
@@ -25,9 +25,9 @@ function handleResume() {
   inquirer
     .prompt(resumeOptions)
     .then(answer => {
-      if (answer.resumeOptions == "Exit") return;
+      if (answer.resumeOptions === "Exit") return;
 
-      const options = data[`${answer.resumeOptions}`];
+      const options = data[answer.resumeOptions];
       if (options) {
         console.log(response(new inquirer.Separator()));
         options.forEach(info => {
@@ -44,12 +44,13 @@ function handleResume() {
           choices: ["Back", "Exit"]
         })
         .then(choice => {
-          if (choice.exitBack == "Back") {
+          if (choice.exitBack === "Back") {
             handleResume();
           } else {
             return;
           }
-        });
+        })
+        .catch(err => console.log("Ooops,", err));
     })
     .catch(err => console.log("Ooops,", err));
 }
