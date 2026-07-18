@@ -28,7 +28,7 @@
   "homepage": "https://github.com/MrSunshyne/ramgolam#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "inquirer": "^7.0.1"
+    "inquirer": "^14.0.2"
   },
   "bin": {
     "sandeepramgolam": "./index.js"
